@@ -15,9 +15,7 @@ Additionally, install MySQL12 to connect to the database.
 npm i mysql2
 ```
 In the JavaScript file, add
-```Javascript
-const mysql = require('mysql2')
-```
+
 
 # Database
 To store user information, we used MariaDB. Run these commands in the Lightsail instance and create a user that is accessible from our server. 
