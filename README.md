@@ -65,3 +65,7 @@ pip install tabulate
 ```
 pip install -U pyinstaller
 ```
+**Run Pyinstaller and get desktop application**
+```
+python -m PyInstaller led_app.py
+```
