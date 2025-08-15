@@ -1,5 +1,6 @@
 # led-board
 Desk-mounted LED device to show user status (Available, Busy, Away) in open office environments.
+Used Adafruit LED matrix and the Adafruit portal S3 (ESP 32).
 
 # Arduino
 To connect and control the display of the LED boards, we used the Arduino IDE. To connect to the boards, first navigate to the preferences and paste "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" into the additional boards manager URLs. Afterwards, navigate to Tools > Boards > ESP32 and select "Adafruit MatrixPortal ESP32-S3". Then plug in your board and select the correct port. Additionally, in the boards manager search for and download "Arduino ESP32 Boards". Lastly, download the Adafruit Protomatter library. 
